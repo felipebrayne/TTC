@@ -1,0 +1,125 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300&family=Open+Sans:ital,wght@0,300;0,400;1,300&display=swap');
+
+@media(max-width: 480px){
+    *{
+        margin: 0;
+        padding: 0;
+    }
+
+    body{
+        width: 100vw;
+        height: 788px;
+    }
+
+    header{
+        display: flex;
+        width: 444px;
+        height: 48px;
+        text-align: center;
+        
+    }
+
+    .img-1{
+        padding: 15px;
+        margin-left: 20px;
+    }
+
+    h1{
+        font-family: 'Fredoka', sans-serif;
+        padding: 5px 15px;
+        text-align: center; 
+        margin: 0 50px;
+        
+        color: #025959;
+    }
+
+    .img-2{
+        padding: 9px;
+        top: 0;
+
+        
+    }
+
+    .img-3{
+        padding: 8px;
+    }
+
+    .img-1 > img{
+        width: 22px;
+        height: 30px;
+    }
+
+    .img-2 > img{
+        width: 30px;
+        height: 30px;
+        position: relative;
+        top: 0;
+        left: 190%;
+    }
+
+    .img-3 > img{
+        width: 24px;
+        height: 30px;
+        position: relative;
+        top: 0;
+        left: 190%;
+    }
+
+    main{
+        width: 503px;
+        height: 875px;
+    }
+
+    .b{
+        padding-left: 25px;
+       
+    }
+  
+    .b > img{
+        width: 457px;
+        height: 788px;
+    }
+
+    .borda{
+        background-color: white;
+        position: relative;
+        top: -11%;
+        left: 10%;
+        border-radius: 50%;
+        width: 86px;
+        height: 86px;
+        text-align: center;
+    }
+
+    .borda > img{
+        width: 62px;
+        height: 62px;
+        padding-top: 12px;
+    }
+
+    .baixo{
+        text-align: center;
+        position: relative;
+        color: white;
+        top: -25%;
+        font-size: 28px ;
+    }
+
+    .coracao{
+        position: relative;
+        width: 86px;
+        height: 86px;
+        background-color: white;
+        border-radius: 50%;
+        top: -26%;
+        left: 75%;
+        text-align: center;
+
+        
+    }
+
+    .coracao > img{
+        padding-top: 26px;
+    }
+}
